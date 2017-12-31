@@ -1,6 +1,18 @@
 body {
-  text-align: center; }
-  body h1 {
-    font-size: 4em; }
+  font-family: 'Barlow', sans-serif; }
+  body #navigation {
+    font-size: 1.5em;
+    padding: 1%;
+    color: white; }
+  body .buttons {
+    background-color: black; }
+  body .link {
+    color: #FFF;
+    text-decoration: none; }
+  body .link:hover {
+    color: rgba(255, 255, 255, 0.486); }
+  body h2 {
+    font-size: 4em;
+    text-align: center; }
 
 /*# sourceMappingURL=theme.css.map */

@@ -1,6 +1,27 @@
 body {
-    text-align: center;
-    h1 {
+    font-family: 'Barlow', sans-serif;
+    // NAV
+    #navigation {
+        font-size: 1.5em;
+        padding: 1%;
+        color: white;
+    }
+
+    .buttons {
+        background-color: black;
+    }
+   
+    .link {
+        color: #FFF;
+        text-decoration: none;
+    }
+    .link:hover {
+        color: rgba(255, 255, 255, 0.486);
+    }
+
+    // INFO
+    h2 {
         font-size: 4em;
+        text-align: center;
     }
 }
