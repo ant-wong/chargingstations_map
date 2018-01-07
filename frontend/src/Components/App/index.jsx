@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 // ROUTES
 import About from '../About';
 import Home from '../Home';
-import Map from '../Map';
+import MapPage from '../MapPage';
 
 // CSS
 import '../../css/theme.css';
@@ -21,7 +21,7 @@ class App extends Component {
             return <About />
           }} />
           <Route path="/map" render={(props) => {
-            return <Map />
+            return <MapPage />
           }} />
         </Switch>
       </div>

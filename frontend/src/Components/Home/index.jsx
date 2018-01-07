@@ -4,20 +4,20 @@ import Nav from '../Nav';
 import Info from '../Info';
 
 class Home extends React.Component {
-    constructor() {
-        super()
-        this.state = {
+  constructor() {
+    super()
+    this.state = {
 
-        }
     }
-    render() {
-        return (
-            <div>
-                <Nav />
-                <Info />
-            </div>
-        )
-    }
+  }
+  render() {
+    return (
+      <div>
+        <Nav />
+        <Info />
+      </div>
+    )
+  }
 }
 
 export default Home;
